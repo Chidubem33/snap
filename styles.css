@@ -1,0 +1,29 @@
+.drop-down-contents {
+    position: absolute;
+    padding: 15px;
+    border-radius: 9px;
+    padding-top: 15px;
+    display: none;
+    background-color: white;
+    z-index: 1;
+    box-shadow: -4px 3px 20px -3px #000;
+}
+
+.drop-down:hover .drop-down-contents {
+    display: block;
+}
+
+.drop-down-contents a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: #000;
+}
+
+.list-unstyled a:hover{
+    color: gray;
+}
